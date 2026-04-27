@@ -6,6 +6,7 @@ void enterEmployeeData(Employee& emp)
 {
 	std::cout << "Введите номер сотрудника:" << "\n";
 	std::cin >> emp.employeeNumber;
+
 	std::cout << "Введите пособие сотрудника:" << "\n";
 	std::cin >> emp.allowance;
 }
